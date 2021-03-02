@@ -9,7 +9,10 @@
       <v-img height="500px" :src="item.node.preview_image"> </v-img>
 
       <v-card-text>
-        <h3 class="primary--text font-weight-bold mx-0 display-2 px-xs-5">
+        <h3
+          id="scrolling-techniques-4"
+          class="primary--text font-weight-bold mx-0 display-2 px-xs-5"
+        >
           {{ item.node.title }}
         </h3>
         <br />
@@ -29,7 +32,7 @@
 
 <page-query>
   query GetArticles {
-    articles: allArticle (perPage: 1, filter: { published: { eq: true }}) {
+    articles: allArticle (perPage: 3, filter: { published: { eq: true }}) {
       edges {
         node {
           id
