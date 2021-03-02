@@ -8,7 +8,7 @@
         ></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
       </v-app-bar>
-      <v-container fluid style="max-width: 1024px">
+      <v-container class="px-sm-12" fluid style="max-width: 1024px">
         <slot />
       </v-container>
     </v-main>

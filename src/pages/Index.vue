@@ -1,52 +1,46 @@
 <template>
   <Layout>
-    <v-card
-      class="mx-sm-auto"
-      v-for="item in $page.articles.edges"
-      :key="item.node.id"
-      :href="item.node.path"
-    >
-      <v-img height="500px" :src="item.node.preview_image"> </v-img>
-
-      <v-card-text>
-        <h3
-          id="scrolling-techniques-4"
-          class="primary--text font-weight-bold mx-0 display-2 px-xs-5"
+    <h1 class="text-h4 mb-3">Resume</h1>
+    <v-card>
+      <v-card-text class="pa-8">
+        <v-card
+          flat
+          class="mb-3"
+          v-for="item in $page.sections.edges"
+          :key="item.node.id"
         >
-          {{ item.node.title }}
-        </h3>
-        <br />
-        <span class="px-xs-5">{{ item.node.author }}</span
-        ><br />
-        <span class="px-xs-5"
-          >Date: {{ item.node.date }} | Time: {{ item.node.timeToRead }} min to
-          read</span
-        >
+          <v-card-text>
+            <h3 id="scrolling-techniques-4">
+              {{ item.node.title }}
+            </h3>
+            <br />
+            <span class="px-xs-5">{{ item.node.subtitle }}</span
+            ><br />
+            <span class="px-xs-5">Date: {{ item.node.date }} </span>
+            <div v-html="item.node.content"></div>
+          </v-card-text>
+        </v-card>
       </v-card-text>
-      <v-card-actions>
-        <v-btn text color="orange" :href="item.node.path">Read More</v-btn>
-      </v-card-actions>
     </v-card>
   </Layout>
 </template>
 
 <page-query>
-  query GetArticles {
-    articles: allArticle (perPage: 3, filter: { published: { eq: true }}) {
-      edges {
-        node {
-          id
-          path
-          date (format: "MMMM D, YYYY")
-          preview_image (quality: 90)
-          title
-          published
-          timeToRead
-          excerpt
-        }
+query GetSections {
+  sections: allSection (filter: {published: {eq: true}}){
+    edges {
+      node {
+        id
+        date
+        title
+        order
+        subtitle
+        content
+        description
       }
     }
   }
+}
 </page-query>
 
 <script></script>
