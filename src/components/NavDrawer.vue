@@ -1,11 +1,5 @@
 <template>
-  <v-navigation-drawer
-    dark
-    color="secondaryDark"
-    width="350"
-    :value="value"
-    app
-  >
+  <v-navigation-drawer dark color="primaryDark" width="350" :value="value" app>
     <v-card href="/" class="transparent mt-5 py-3" flat tile :ripple="false">
       <v-row justify="center">
         <v-avatar size="200">
@@ -65,7 +59,7 @@
         <v-progress-linear
           light
           class="mb-1"
-          color="secondary"
+          color="primaryLight"
           height="28"
           v-for="skill in skills"
           :key="skill.name"
