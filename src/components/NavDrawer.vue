@@ -1,6 +1,12 @@
 <template>
-  <v-navigation-drawer color="secondaryDark" width="400" :value="value" app>
-    <v-card class="transparent mt-12" flat tile>
+  <v-navigation-drawer
+    dark
+    color="secondaryDark"
+    width="350"
+    :value="value"
+    app
+  >
+    <v-card href="/" class="transparent mt-5 py-3" flat tile :ripple="false">
       <v-row justify="center">
         <v-avatar size="200">
           <img
@@ -13,7 +19,9 @@
         <h1 class="profile profile-name">ROY TANAKA</h1>
         <h2 class="profile profile-title">Frontend Web Developer</h2>
       </v-card-title>
-      <v-card-text class="text-center">
+    </v-card>
+    <v-card flat tile class="transparent">
+      <v-card-actions class="justify-center">
         <v-btn
           v-for="social in socials"
           :key="social.icon"
@@ -26,16 +34,38 @@
             {{ social.icon }}
           </v-icon>
         </v-btn>
-      </v-card-text>
+      </v-card-actions>
     </v-card>
+    <!-- <v-list>
+      <v-list-item link to="/about/">
+        <v-list-item-content>
+          <v-list-item-title class="text-center mr-5">About</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+      <v-list-item link to="/contact/">
+        <v-list-item-content>
+          <v-list-item-title class="text-center mr-5"
+            >Contact</v-list-item-title
+          >
+        </v-list-item-content>
+      </v-list-item>
+      <v-list-item link to="/articles/">
+        <v-list-item-content>
+          <v-list-item-title class="text-center mr-5"
+            >Articles</v-list-item-title
+          >
+        </v-list-item-content>
+      </v-list-item>
+    </v-list> -->
     <v-card flat tile class="transparent px-12">
       <v-card-title class="profile">
         Skills
       </v-card-title>
       <v-card-text>
         <v-progress-linear
+          light
           class="mb-1"
-          color="primaryLight"
+          color="secondary"
           height="28"
           v-for="skill in skills"
           :key="skill.name"
@@ -105,15 +135,13 @@ export default {
 </script>
 
 <style scoped>
-.profile {
-  color: white;
-}
 .profile-name {
   font-weight: 100;
   font-size: 2.5rem;
 }
 .profile-title {
   font-family: 'Roboto Condensed';
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .v-progress-linear {
