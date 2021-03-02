@@ -1,6 +1,26 @@
 <template>
-  <v-navigation-drawer dark color="primaryDark" width="350" :value="value" app>
-    <v-card href="/" class="transparent mt-5 py-3" flat tile :ripple="false">
+  <v-navigation-drawer
+    dark
+    color="primaryDark"
+    width="320"
+    :value="value"
+    @input="$emit('input', $event)"
+    app
+  >
+    <v-btn
+      class="ma-1 d-block ml-auto d-lg-none"
+      icon
+      large
+      @click="$emit('input', !value)"
+      ><v-icon>fa-times</v-icon></v-btn
+    >
+    <v-card
+      href="/"
+      class="profile transparent mt-5 py-3 d-none d-lg-block"
+      flat
+      tile
+      :ripple="false"
+    >
       <v-row justify="center">
         <v-avatar size="200">
           <img
@@ -14,7 +34,7 @@
         <h2 class="profile profile-title">Frontend Web Developer</h2>
       </v-card-title>
     </v-card>
-    <v-card flat tile class="transparent">
+    <v-card flat tile class="transparent d-md-none d-lg-block">
       <v-card-actions class="justify-center">
         <v-btn
           v-for="social in socials"
@@ -78,16 +98,9 @@
 export default {
   props: {
     value: Boolean,
+    socials: Array,
   },
   data: () => ({
-    socials: [
-      {
-        icon: 'fab fa-linkedin',
-        link: 'https://www.linkedin.com/in/roytanaka/',
-      },
-      { icon: 'fab fa-github', link: 'https://github.com/roytanaka/' },
-      { icon: 'fab fa-twitter', link: 'https://twitter.com/roytanaka/' },
-    ],
     skills: [
       { name: 'JavaScript (ES6+)', score: 0 },
       { name: 'Vue.js', score: 0 },
@@ -129,16 +142,7 @@ export default {
 </script>
 
 <style scoped>
-.profile-name {
-  font-weight: 100;
-  font-size: 2.5rem;
-}
-.profile-title {
-  font-family: 'Roboto Condensed';
-  font-size: 1.5rem;
-  font-weight: 300;
-}
 .v-progress-linear {
-  transition: 1s ease-in-out;
+  transition: 1s ease-out;
 }
 </style>
