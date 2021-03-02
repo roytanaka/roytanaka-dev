@@ -26,8 +26,8 @@
 </template>
 
 <page-query>
-query GetSections {
-  sections: allSection (filter: {published: {eq: true}}){
+ query GetSections {
+  sections: allSections (filter: {published: {eq: true}}){
     edges {
       node {
         id

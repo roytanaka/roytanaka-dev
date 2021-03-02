@@ -23,7 +23,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'sections/**/*.md',
-        typeName: 'Section',
+        typeName: 'Sections',
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: '_blank',
