@@ -53,19 +53,26 @@
 
         <v-spacer></v-spacer>
       </v-app-bar>
-      <v-container class="pt-lg-12 px-sm-12" fluid style="max-width: 1024px">
+      <v-container
+        class="pt-lg-12 px-sm-12 mb-16"
+        fluid
+        style="max-width: 900px"
+      >
         <slot />
       </v-container>
+      <Footer />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import NavDrawer from '../components/NavDrawer';
+import Footer from '../components/Footer';
 
 export default {
   components: {
     NavDrawer,
+    Footer,
   },
   data: () => ({
     navDrawer: null,
