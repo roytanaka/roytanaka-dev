@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'My New Blog',
+  siteName: 'Roy Tanaka dot Dev',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -22,8 +22,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'sections/**/*.md',
-        typeName: 'Sections',
+        path: 'resume/**/*.md',
+        typeName: 'Resume',
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: '_blank',
