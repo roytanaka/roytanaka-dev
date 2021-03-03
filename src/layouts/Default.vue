@@ -18,11 +18,10 @@
         <v-fade-transition>
           <v-card
             href="/"
-            class="profile pa-2 transparent mr-7 align-self-center"
+            class="profile pa-2 transparent mr-7 align-self-center d-lg-none"
             flat
             tile
             :ripple="false"
-            v-if="isMdAndDown"
             width="500"
           >
             <v-row justify="center">
