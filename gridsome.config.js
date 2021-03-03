@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Roy Tanaka dot Dev',
   siteUrl: 'https://roytanaka.dev',
+  icon: './src/r-favicon.png',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
