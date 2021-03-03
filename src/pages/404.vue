@@ -21,7 +21,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: 'four oh four',
+  },
+};
 </script>
 
 <style scoped>

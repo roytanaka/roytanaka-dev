@@ -21,7 +21,13 @@ query GetResume {
   }
 }
 </page-query>
-<script></script>
+<script>
+export default {
+  metaInfo: {
+    title: 'Roy’s Resume',
+  },
+};
+</script>
 
 <style>
 .resume {
