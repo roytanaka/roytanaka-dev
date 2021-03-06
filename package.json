@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "^0.2.0",
-    "gridsome": "^0.7.17",
-    "vuetify": "^2.3.0"
+    "gridsome": "^0.7.23",
+    "vuetify": "^2.4.5"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.6.0",
-    "@gridsome/transformer-remark": "^0.3.3",
+    "@gridsome/transformer-remark": "^0.6.4",
     "webpack-node-externals": "^1.7.2"
   }
 }
