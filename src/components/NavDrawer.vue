@@ -29,7 +29,7 @@
           />
         </v-avatar>
       </v-row>
-      <v-card-title class="justify-center">
+      <v-card-title class="justify-center mt-4">
         <h1 class="profile profile-name">ROY TANAKA</h1>
         <h2 class="profile profile-title">Frontend Web Developer</h2>
       </v-card-title>
@@ -38,6 +38,7 @@
       <v-card-actions class="justify-center">
         <v-btn
           v-for="social in socials"
+          :title="social.title"
           :key="social.icon"
           class="mx-2 white--text"
           icon
@@ -50,27 +51,27 @@
         </v-btn>
       </v-card-actions>
     </v-card>
-    <!-- <v-list>
-      <v-list-item link to="/about/">
+    <v-list class="d-lg-none">
+      <v-list-item link to="resume">
         <v-list-item-content>
-          <v-list-item-title class="text-center mr-5">About</v-list-item-title>
+          <v-list-item-title class="text-center mr-5">Resume</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-list-item link to="/contact/">
+      <v-list-item link to="projects">
+        <v-list-item-content>
+          <v-list-item-title class="text-center mr-5"
+            >Projects</v-list-item-title
+          >
+        </v-list-item-content>
+      </v-list-item>
+      <v-list-item link to="contact">
         <v-list-item-content>
           <v-list-item-title class="text-center mr-5"
             >Contact</v-list-item-title
           >
         </v-list-item-content>
       </v-list-item>
-      <v-list-item link to="/articles/">
-        <v-list-item-content>
-          <v-list-item-title class="text-center mr-5"
-            >Articles</v-list-item-title
-          >
-        </v-list-item-content>
-      </v-list-item>
-    </v-list> -->
+    </v-list>
     <v-card flat tile class="transparent px-12">
       <v-card-title class="profile">
         Skills
@@ -84,9 +85,12 @@
           v-for="skill in skills"
           :key="skill.name"
           :value="skill.score"
+          :aria-label="`${skill.name} ${skill.score}% score`"
         >
           <template
-            ><div class="ml-3 mr-auto">{{ skill.name }}</div></template
+            ><div class="ml-3 mr-auto font-weight-medium">
+              {{ skill.name }}
+            </div></template
           >
         </v-progress-linear>
       </v-card-text>
