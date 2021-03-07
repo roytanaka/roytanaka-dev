@@ -2,7 +2,7 @@ import Vuetify from 'vuetify';
 import DefaultLayout from '~/layouts/Default.vue';
 
 import 'vuetify/dist/vuetify.min.css';
-// import colors from "vuetify/lib/util/colors";
+import colors from 'vuetify/lib/util/colors';
 
 export default function(Vue, { appOptions, head }) {
   head.link.push({
@@ -40,10 +40,10 @@ export default function(Vue, { appOptions, head }) {
           primary: '#7298c1',
           primaryLight: '#a3c9f4',
           primaryDark: '#426a91',
+          accent: colors.orange.darken3,
           secondary: '#9e9e9e',
           secondaryLight: '#cfcfcf',
           secondaryDark: '#707070',
-          accent: '#82B1FF',
           error: '#FF5252',
           info: '#2196F3',
           success: '#4CAF50',
