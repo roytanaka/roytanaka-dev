@@ -1,0 +1,78 @@
+resume:
+  profile: A versatile and enthusiastic lifelong learner with six years of professional experience developing engaging and intuitive software. From a development perspective, I am always looking for ways to make my code more efficient, scalable, and clean. From a UI/UX perspective, I empathize with users to understand what it takes to make their lives easier with great software.
+  experiences:
+    Experience:
+      - company: TI Group Inc.
+        companyDescription: Printing and visual communications company.
+        position:
+          - title: Systems Development Manager
+            dates: 2015 – present
+            responsibilities:
+              - Maximize production efficiency by developing applications that streamline the processing of data from customer-supplied distribution lists.
+              - Collaborate with team members, stakeholders, and end-users to conceptualize the best solution to solve their particular problem.
+              - Manage and customize customer e-commerce portals for notable brands like Loblaws, TD Bank, RBC Bank, Shell Canada, and General Motors.
+              - Integrate enterprise-level systems to communicate with each other to eliminate manual entry and provide upper management with detailed reports.
+              - Work closely with UX/UI designer, project managers, and back-end developers in an Agile environment to rapidly execute projects from concept to deployment.
+      - company: Spicers Canada
+        companyDescription: Distributor of graphic products, equipment, and supplies.
+        position:
+          - title: Technical Sales Specialist
+            dates: 2009 – 2015
+            responsibilities:
+              - Provided technical sales support for Account Executives and their clients.
+              - Presented product training to inside and outside sales teams.
+              - Salesforce.com administrator.
+          - title: Team Lead, National Application Specialist
+            dates: 2002 – 2009
+            responsibilities:
+              - Developed and implemented standard procedures and documentation for software and hardware installations and services.
+              - Initiated monthly review meetings with applications team to provide internal training, discuss customer issues and share best practices.
+          - title: National Application Specialist
+            dates: 2002 – 2009
+            responsibilities:
+              - Technical support specialist for various software and hardware products.
+              - On-site installation of printers, computers, software, and specialized equipment.
+              - Provided hands-on customer training for individuals and large groups.
+              - Configured solutions to communicate with servers and client workstations on the local area network
+    Volunteer Experience:
+      - company: Royal Ontario Museum
+        companyDescription: Young Patrons Circle
+        position:
+          - title: Committee Chair
+            dates: 2020 – Present
+            responsibilities:
+              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
+              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+          - title: Committee Member
+            dates: 2014 – 2020
+            responsibilities:
+              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
+              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+      - company: Royal Ontario Museum
+        companyDescription: Department of Museum Volunteers
+        position:
+          - title: Web Developer
+            dates: 2016 – Present
+            responsibilities:
+              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
+              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+          - title: Gallery Interpreter,
+            dates: 2013 – Present
+            responsibilities:
+              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
+              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+  education:
+    - institution: Ryerson University
+      dates: 1998 – 2002
+      description: |
+        BTech. in Graphic Communications Management
+        Marketing Minor
+    - institution: Humber College
+      dates: 2013 – 2015
+      description: Advanced Computer Programming (Continuing Education)
+  interests:
+    - Photography
+    - Rock climbing
+    - Sailing
+    - Backpacking/Hiking
+    - Astronomy
