@@ -1,26 +1,18 @@
 <template>
   <Layout>
-    <v-card flat tile>
-      <v-card-title class="text-h4">
-        Resume
-      </v-card-title>
-      <v-card-text class="resume" v-html="$page.resume.edges[0].node.content">
-      </v-card-text>
-    </v-card>
+    <div class="text-center mt-12 mx-auto">
+      <h1 class="hero-text hero-text--h1 text-uppercase">Welcome</h1>
+      <h2 class="hero-text hero-text--description">
+        I'm a Frontend Developer experienced in building dynamic web apps
+        focused on user experience
+      </h2>
+      <v-btn color="accent" class="mt-12" to="/resume" tile outlined large
+        >Resume</v-btn
+      >
+    </div>
   </Layout>
 </template>
-<page-query>
-query GetResume {
-  resume: allResume (limit: 1){
-    edges {
-      node {
-        id
-        content
-      }
-    }
-  }
-}
-</page-query>
+
 <script>
 export default {
   metaInfo: {
@@ -30,30 +22,29 @@ export default {
 </script>
 
 <style>
-.resume {
-  font-size: 1rem;
-  line-height: 1.4;
-}
-.resume h2 {
-  text-transform: uppercase;
-  color: #426a91;
-  margin-top: 0.5rem;
-  margin-bottom: 0.2rem;
-}
-h3,
-h4 {
-  margin-top: 0.5rem;
-}
-.company-description {
-  font-weight: 400;
-  font-size: 0.9rem;
-  margin-left: 0.2rem;
+.hero-text {
+  color: white;
+  font-weight: 300;
 }
 
-.resume .language-text {
-  display: block;
-  background-color: unset;
-  color: #426a91;
-  padding: 0;
+.hero-text--h1 {
+  font-size: 3.5rem;
+}
+.hero-text--description {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 18rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .hero-text--h1 {
+    font-size: 6rem;
+  }
+  .hero-text--description {
+    font-size: 1.6rem;
+    max-width: 31rem;
+  }
 }
 </style>
