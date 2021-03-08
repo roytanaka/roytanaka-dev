@@ -13,7 +13,9 @@
               netlify
               ref="form"
               id="contactForm"
+              name="contact"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <v-text-field
                 name="name"
                 v-model.trim="name"
