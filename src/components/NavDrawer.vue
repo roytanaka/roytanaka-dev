@@ -52,19 +52,19 @@
       </v-card-actions>
     </v-card>
     <v-list class="d-lg-none">
-      <v-list-item link to="resume">
+      <v-list-item link to="/resume">
         <v-list-item-content>
           <v-list-item-title class="text-center mr-5">Resume</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-list-item link to="projects">
+      <v-list-item link to="/projects">
         <v-list-item-content>
           <v-list-item-title class="text-center mr-5"
             >Projects</v-list-item-title
           >
         </v-list-item-content>
       </v-list-item>
-      <v-list-item link to="contact">
+      <v-list-item link to="/contact">
         <v-list-item-content>
           <v-list-item-title class="text-center mr-5"
             >Contact</v-list-item-title
