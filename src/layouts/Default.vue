@@ -64,7 +64,7 @@ export default {
 <style>
 .fullPage {
   background: url(/images/background-image.jpg) no-repeat center center fixed;
-  background-color: #464646;
+  background-color: #00416b;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

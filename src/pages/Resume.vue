@@ -26,7 +26,7 @@
           </div>
         </section>
         <section>
-          <h2>Eduction</h2>
+          <h2>Education</h2>
           <div v-for="school in resume.education" :key="school.institution">
             <h3>{{ school.institution }} | {{ school.dates }}</h3>
             <p class="multiline-text">{{ school.description }}</p>

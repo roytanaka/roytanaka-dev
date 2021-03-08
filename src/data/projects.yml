@@ -1,0 +1,21 @@
+projects:
+  - title: Campaign Management App
+    role: Frontend developer
+    dates: Mar 2019 – Oct 2019
+    description: Facilitates the creation, organization, and execution of large-scale in-store signage campaigns for over 1,600 stores under the Loblaw’s umbrella.
+    stack: [PHP, MySQL, Vue.js, Sass, Bootstrap]
+  - title: ROM Volunteers website
+    role: Frontend developer
+    dates: Oct 2018 – Nov 2019
+    description: Responsive, mobile-friendly redesign of volunteer website used by over 500 museum volunteers. New UI praised for being instrumental in communicating with volunteers during the pandemic.
+    stack: [PHP, JQuery, Bootstrap, Sass]
+  - title: Distribution List Add-on
+    role: Full-stack developer
+    dates: Oct 2020 – Jan 2021
+    description: Google Sheets Add-on takes customer-supplied distribution lists and processes the data to a format compatible with Company’s ERP system.
+    stack: [Vue.js, Vuex, Google Apps Script, Google Sheets Add-on]
+  - title: Discord Trivia Bot
+    role: Personal project
+    dates: April 2020
+    description: Discord bot for managing trivia games with friends. Triggers countdown timer for answer submission, calculates players’ scores, and displays tabulated results.
+    stack: [Node.js, TypeScript, discord.js, jest]
