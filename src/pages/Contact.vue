@@ -7,11 +7,12 @@
             <h1 class="text-h4 font-weight-light text-sm-h3">Get in touch</h1>
           </v-card-title>
           <v-card-text class="text-center">
-            <form
-              action="/thanks"
-              method="POST"
+            <v-form
               netlify
               ref="form"
+              v-model="valid"
+              lazy-validation
+              @submit.prevent="submit"
               id="contactForm"
               name="contact"
             >
@@ -37,10 +38,17 @@
                 label="Message"
                 :rules="messageRules"
               ></v-textarea>
-            </form>
+            </v-form>
           </v-card-text>
           <v-card-actions>
-            <v-btn type="submit" form="contactForm" tile block color="primary">
+            <v-btn
+              type="submit"
+              form="contactForm"
+              tile
+              block
+              color="primary"
+              :disabled="!valid"
+            >
               Submit
             </v-btn>
           </v-card-actions>
