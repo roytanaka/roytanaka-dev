@@ -2,9 +2,9 @@
   <Layout>
     <v-row align-content="center">
       <v-col md="10" offset-md="1">
-        <v-card class="pa-8 mx-auto" max-width="500">
+        <v-card class="pa-8 mx-auto contact-form" max-width="500">
           <v-card-title class="justify-center">
-            <h1 class="text-h4 font-weight-light text-sm-h3">Get in touch</h1>
+            <h1>Get in touch</h1>
           </v-card-title>
           <v-card-text class="text-center">
             <v-form
@@ -103,7 +103,7 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  border: 5px solid #426a91;
+.contact-form h1 {
+  font-family: 'Playfair Display', serif;
 }
 </style>

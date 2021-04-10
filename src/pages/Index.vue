@@ -28,7 +28,9 @@ export default {
 }
 
 .hero-text--h1 {
-  font-size: 3.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 2.5rem;
 }
 .hero-text--description {
   font-size: 1rem;
@@ -40,7 +42,7 @@ export default {
 
 @media (min-width: 960px) {
   .hero-text--h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .hero-text--description {
     font-size: 1.6rem;

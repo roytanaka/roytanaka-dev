@@ -63,6 +63,8 @@ export default {
   line-height: 1.6;
 }
 .resume h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
   text-transform: uppercase;
   color: #426a91;
   margin-top: 0.8rem;

@@ -13,7 +13,7 @@ export default function(Vue, { appOptions, head }) {
   head.link.push({
     rel: 'stylesheet',
     href:
-      'https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap',
+      'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap',
   });
 
   head.link.push({
