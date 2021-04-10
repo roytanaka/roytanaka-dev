@@ -1,8 +1,6 @@
 # Responsive, dynamic Jamstack website
 
-My person website built with Vue, Vuetify & Gridsome
-
-
+My personal website built with Vue, Vuetify & Gridsome
 
 # Default starter for Gridsome
 
