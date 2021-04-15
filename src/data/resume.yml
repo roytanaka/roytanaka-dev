@@ -33,7 +33,7 @@ resume:
               - Technical support specialist for various software and hardware products.
               - On-site installation of printers, computers, software, and specialized equipment.
               - Provided hands-on customer training for individuals and large groups.
-              - Configured solutions to communicate with servers and client workstations on the local area network
+              - Configured solutions to communicate with servers and client workstations on the local area network.
     Volunteer Experience:
       - company: Royal Ontario Museum
         companyDescription: Young Patrons Circle
@@ -41,26 +41,31 @@ resume:
           - title: Committee Chair
             dates: 2020 – Present
             responsibilities:
-              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
-              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+              - Lead YPC Committee members and liaise with ROM staff to ensure the Museum's Patron group is relevant to the 350+ members.
+              - Strengthen relationships with current donors and members.
+              - Provide guidance to members and committee on their own goals and assperations within the YPC program.
           - title: Committee Member
             dates: 2014 – 2020
             responsibilities:
-              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
-              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+              - Create cultural experiences through unique and exclusive connections to all aspects of the Museum.
+              - Provide strategic input on YPC programming and benefits to improve retention and increase philanthropic support by YPC patrons.
+              - Help build the next generation of ROM supporters.
       - company: Royal Ontario Museum
         companyDescription: Department of Museum Volunteers
         position:
           - title: Web Developer
             dates: 2016 – Present
             responsibilities:
-              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
-              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+              - Create and maintain website theme for Department of Museum Volunteers.
+              - Unsure website is mobile friendly and highly functional across all major browsers and devices.
+              - Implement UI/UX and accessibility best practices.
+              - Respond to support issues and bug fixes as required. 
           - title: Gallery Interpreter,
             dates: 2013 – Present
             responsibilities:
-              - Lead a group of 350+ young professionals who make annual philanthropic gifts to the Royal Ontario Museum
-              - Ensure the ROM’s world-class galleries, exhibitions and programs remain accessible and engaging for generations to come. Since 2005, YPC members have raised over $5.5 million to the ROM
+              - Provide a hands-on learning experience for museum visitors, working with artifacts and specimens
+              - Research hands-on artifacts to develop meaningful stories to relate the object to what visitors can see in the Gallery
+              - Create enriching and educational experience for ROM visitors and special events.
   education:
     - institution: Ryerson University
       dates: 1998 – 2002
