@@ -1,10 +1,16 @@
 <template>
   <v-app>
+    <v-btn tile class="skip-to-content" absolute @click="skipTo">
+      Skip to content
+    </v-btn>
     <nav-drawer v-model="navDrawer" :socials="socials" />
     <v-main :class="{ fullPage: isHome }" style="max-width: 1920px">
       <app-bar-md class="d-lg-none" v-model="navDrawer"></app-bar-md>
       <app-bar-lg></app-bar-lg>
       <v-container
+        tabindex="-1"
+        ref="mainContent"
+        id="main-content"
         class="pt-lg-12 px-sm-12 mb-16"
         fluid
         style="max-width: 900px"
@@ -58,10 +64,26 @@ export default {
       return this.$vuetify.breakpoint.mdAndDown;
     },
   },
+  methods: {
+    skipTo(e) {
+      e.target.blur();
+      location.href = '#main-content';
+      this.$refs.mainContent.focus();
+    },
+  },
 };
 </script>
 
 <style>
+.skip-to-content {
+  left: 0;
+  position: absolute;
+  transform: translateY(-150%);
+  z-index: 100;
+}
+.skip-to-content:focus {
+  transform: translateY(0%);
+}
 .fullPage {
   background: url(/images/background-image.jpg) no-repeat center center fixed;
   background-color: #00416b;

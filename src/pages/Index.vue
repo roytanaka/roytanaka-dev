@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="text-center mt-12 mx-auto">
+    <article class="text-center mt-12 mx-auto">
       <h1 class="hero-text hero-text--h1 text-uppercase">Welcome</h1>
       <h2 class="hero-text hero-text--description">
         I'm a Frontend Developer experienced in building dynamic web apps
@@ -9,7 +9,7 @@
       <v-btn color="accent" class="mt-12" to="/resume" tile outlined large
         >Resume</v-btn
       >
-    </div>
+    </article>
   </Layout>
 </template>
 

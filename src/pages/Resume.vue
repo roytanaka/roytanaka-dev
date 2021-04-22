@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-card flat tile>
+    <v-card tag="article" flat tile>
       <v-card-text class="resume">
         <section>
           <h2>Profile</h2>

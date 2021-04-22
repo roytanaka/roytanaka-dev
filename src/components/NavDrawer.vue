@@ -1,5 +1,6 @@
 <template>
   <v-navigation-drawer
+    tag="aside"
     dark
     color="primaryDark"
     width="320"
@@ -25,7 +26,7 @@
         <v-avatar size="200">
           <img
             src="/images/roy-tanaka.jpg"
-            alt="Roy TanFrontend Developeraka"
+            alt="Roy Tanaka's portait, looking off to the right"
           />
         </v-avatar>
       </v-row>

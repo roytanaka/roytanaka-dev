@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-card flat tile>
+    <v-card tag="article" flat tile>
       <v-card-title>
         Recent Projects
       </v-card-title>
