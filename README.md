@@ -1,6 +1,6 @@
 # Responsive, dynamic Jamstack website
 
-My personal website built with Vue, Vuetify & Gridsome
+My personal website built with Vue, Vuetify & Gridsome.
 
 # Default starter for Gridsome
 
@@ -17,5 +17,5 @@ This is the project you get when you run `gridsome create new-project`.
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY5NjAwNzBdfQ==
+eyJoaXN0b3J5IjpbLTkyNjU5NjM3NiwtMTc0Njk2MDA3MF19
 -->
